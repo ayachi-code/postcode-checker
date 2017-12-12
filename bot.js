@@ -13,7 +13,7 @@ console.log("Bot is running...");
 bot.on('/start',(msg) => {
   let antwoord = {replyToMessage: msg.message_id};
   console.log("/start is aangevraagt ")
-  return bot.sendMessage(msg.from.id, "Hallo welkom bij postcode checker type een postcode en de bot checkt of hij geldig is.",antwoord);
+  return bot.sendMessage(msg.from.id, "Hallo welkom bij postcode checker type een postcode en de bot checkt of hij bestaat.",antwoord);
 });
 
 
