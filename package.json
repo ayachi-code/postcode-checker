@@ -1,0 +1,22 @@
+{
+  "name": "postchecker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayachi-code/postcode-checker.git"
+  },
+  "author": "bilal el ayachi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ayachi-code/postcode-checker/issues"
+  },
+  "homepage": "https://github.com/ayachi-code/postcode-checker#readme",
+  "dependencies": {
+    "telebot": "^1.2.3"
+  }
+}
